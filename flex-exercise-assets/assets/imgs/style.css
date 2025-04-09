@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: rgb(252, 252, 252);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+.stile-titoli {
+  font-weight: 800;
+  color: rgb(120, 43, 15);
+}
+body h1 {
+  font-size: 32px;
+}
+header {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(250, 247, 221);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav {
+  width: 90%;
+  margin-block: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.button {
+  height: 40px;
+  width: 20%;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(245, 220, 121);
+  color: rgb(120, 43, 15);
+}
+nav img {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+main {
+  margin-top: 10%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.articolo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.articolo div,
+h3 {
+  font-size: 15px;
+}
+.articolo img {
+  width: 50%;
+}
+.button-p {
+  font-size: 13px;
+  height: 40px;
+  width: 20%;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(245, 220, 121);
+  color: rgb(120, 43, 15);
+}
+aside {
+  border-radius: 20px;
+  background-color: rgb(250, 247, 221);
+}
+aside div {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-block: 1.5rem;
+}
+aside h2 {
+  font-size: 22px;
+}
+aside p {
+  color: rgb(120, 43, 15);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  font-size: 16px;
+  line-height: 1.2;
+}
+aside img {
+  width: 90%;
+}
